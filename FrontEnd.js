@@ -11,5 +11,8 @@ num.addEventListener("input", () => {
         }else{
             num.setAttribute("style","border:1px solid red; background-color: rgba(251, 54, 54, 0.778)")
         }
+    }else{
+        let input = num.value
+        console.log(input)
     }
 })
