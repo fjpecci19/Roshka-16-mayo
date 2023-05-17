@@ -51,3 +51,57 @@ function mostrar6(){
         textoculto.style.display = "none"
     }
 }
+
+function mostrar7(){
+    var textoculto = document.getElementById("configuracionoculta")
+    if(textoculto.style.display === "none"){
+        textoculto.style.display = "block"
+    }else{
+        textoculto.style.display = "none"
+    }
+}
+
+function mostrar8(){
+    var textoculto = document.getElementById("configuracionoculta2")
+    if(textoculto.style.display === "none"){
+        textoculto.style.display = "block"
+    }else{
+        textoculto.style.display = "none"
+    }
+}
+
+function mostrar9(){
+    var textoculto = document.getElementById("configuracionoculta3")
+    if(textoculto.style.display === "none"){
+        textoculto.style.display = "block"
+    }else{
+        textoculto.style.display = "none"
+    }
+}
+
+function mostrar10(){
+    var textoculto = document.getElementById("configuracionoculta4")
+    if(textoculto.style.display === "none"){
+        textoculto.style.display = "block"
+    }else{
+        textoculto.style.display = "none"
+    }
+}
+
+function mostrar11(){
+    var textoculto = document.getElementById("configuracionoculta5")
+    if(textoculto.style.display === "none"){
+        textoculto.style.display = "block"
+    }else{
+        textoculto.style.display = "none"
+    }
+}
+
+function mostrar12(){
+    var textoculto = document.getElementById("configuracionoculta6")
+    if(textoculto.style.display === "none"){
+        textoculto.style.display = "block"
+    }else{
+        textoculto.style.display = "none"
+    }
+}
