@@ -115,3 +115,20 @@ function mostrar13(){
     }
 }
 
+function mostrar14(){
+    var textoculto = document.getElementById("búsqueda2")
+    if(textoculto.style.display === "none"){
+        textoculto.style.display = "block"
+    }else{
+        textoculto.style.display = "none"
+    }
+}
+
+function mostrar15(){
+    var textoculto = document.getElementById("búsqueda3")
+    if(textoculto.style.display === "none"){
+        textoculto.style.display = "block"
+    }else{
+        textoculto.style.display = "none"
+    }
+}
