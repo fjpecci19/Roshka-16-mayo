@@ -105,3 +105,13 @@ function mostrar12(){
         textoculto.style.display = "none"
     }
 }
+
+function mostrar13(){
+    var textoculto = document.getElementById("búsqueda")
+    if(textoculto.style.display === "none"){
+        textoculto.style.display = "block"
+    }else{
+        textoculto.style.display = "none"
+    }
+}
+
