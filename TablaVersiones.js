@@ -132,3 +132,12 @@ function mostrar15(){
         textoculto.style.display = "none"
     }
 }
+
+function toggleSideboard() {
+    const menu = document.getElementById("menu");
+    if (menu.style.display === "none") {
+      menu.style.display = "block";
+    } else {
+      menu.style.display = "none";
+    }
+  }
