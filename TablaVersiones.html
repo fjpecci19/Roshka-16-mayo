@@ -210,31 +210,37 @@
     <h1 class="container mt-3 py-2" id="configuracionoculta" style="display: none; text-align: center; font-size: 30px; background-color: yellow; position: relative; float: right;">
         <u>1.6.16</u><br>
         <u>Configuración</u><br>
-        <button style="font-size: 30px; background-color: yellow; color: black; border: yellow;" onclick="mostrar10()"><u>Ajustes_de_Privacidad</u></button><br>
-        <h1 class="container mt-3 py-2" id="configuracionoculta4" style="display: none; text-align: center; font-size: 30px; background-color: yellow; position: relative; float: right;">
-            • Cuenta privada<br>
-            • Cuenta pública<br>
-        </h1>
+        <div class="desplegable" style="cursor: pointer;">
+            <div class="encabezado" onclick="toggleDesplegable()">Ajustes de privacidad <span class="flecha" style="display: inline-block; transition: transform 0.3s ease;">&#9660;</span></div>
+            <div class="contenido" class="container mt-3 py-2" id="contenidoDesplegable1" style="display: none;">
+                Cuenta pública <br>
+                Cuenta privada <br>   
+            </div>
+        </div>
     </h1>
     <h1 class="container mt-3 py-2" id="configuracionoculta2" style="display: none; text-align: center; font-size: 30px; background-color: yellow; position: relative; float: right;">
         <u>1.7.17</u><br>
         <u>Configuración</u><br>
-        <button style="font-size: 30px; background-color: yellow; color: black; border: yellow;" onclick="mostrar11()"><u>Ajustes_de_Tema</u></button><br>
-        <h1 class="container mt-3 py-2" id="configuracionoculta5" style="display: none; text-align: center; font-size: 30px; background-color: yellow; position: relative; float: right;">
-            • Tema claro<br>
-            • Tema oscuro<br>
-            • Tema personalizado<br>
-        </h1>
+        <div class="desplegable2" style="cursor: pointer;">
+            <div class="encabezado2" onclick="toggleDesplegable2()">Ajustes de tema <span class="flecha" style="display: inline-block; transition: transform 0.3s ease;">&#9660;</span></div>
+            <div class="contenido2" class="container mt-3 py-2" id="contenidoDesplegable2" style="display: none;">
+                Tema claro <br>
+                Tema oscuro <br>
+                Tema personalizado <br>    
+            </div>
+        </div>
     </h1>
     <h1 class="container mt-3 py-2" id="configuracionoculta3" style="display: none; text-align: center; font-size: 30px; background-color: yellow; position: relative; float: right;">
         <u>1.8.18</u><br>
         <u>Configuración</u><br>
-        <button style="font-size: 30px; background-color: yellow; color: black; border: yellow;" onclick="mostrar12()"><u>Ajustes_de_Sistema</u></button><br>
-        <h1 class="container mt-3 py-2" id="configuracionoculta6" style="display: none; text-align: center; font-size: 30px; background-color: yellow; position: relative; float: right;">
-            • Brillo<br>
-            • Sonido<br>
-            • Lenguaje<br>
-        </h1>
+        <div class="desplegable3" style="cursor: pointer;">
+            <div class="encabezado3" onclick="toggleDesplegable3 ()">Ajustes de sistema <span class="flecha" style="display: inline-block; transition: transform 0.3s ease;">&#9660;</span></div>
+            <div class="contenido3" class="container mt-3 py-2" id="contenidoDesplegable3" style="display: none;">
+                Brillo <br>
+                Idioma <br>
+                Lenguaje <br>    
+            </div>
+        </div>
     </h1>
   </body>
 </html>

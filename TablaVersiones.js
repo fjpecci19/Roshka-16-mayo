@@ -141,3 +141,34 @@ function toggleSideboard() {
       menu.style.display = "none";
     }
   }
+
+function toggleDesplegable() {
+    var desplegable = document.querySelector(".desplegable");
+    var contenido = document.getElementById("contenidoDesplegable1");
+    var flecha = desplegable.querySelector(".flecha");
+  
+    desplegable.classList.toggle("desplegado");
+    contenido.style.display = (contenido.style.display === "none") ? "block" : "none";
+    flecha.style.transform = (desplegable.classList.contains("desplegado")) ? "rotate(0deg)" : "rotate(270deg)";
+}
+
+function toggleDesplegable2() {
+    var desplegable = document.querySelector(".desplegable2");
+    var contenido = document.getElementById("contenidoDesplegable2");
+    var flecha = desplegable.querySelector(".flecha");
+  
+    desplegable.classList.toggle("desplegado");
+    contenido.style.display = (contenido.style.display === "none") ? "block" : "none";
+    flecha.style.transform = (desplegable.classList.contains("desplegado")) ? "rotate(0deg)" : "rotate(270deg)";
+}
+
+function toggleDesplegable3() {
+    var desplegable = document.querySelector(".desplegable3");
+    var contenido = document.getElementById("contenidoDesplegable3");
+    var flecha = desplegable.querySelector(".flecha");
+  
+    desplegable.classList.toggle("desplegado");
+    contenido.style.display = (contenido.style.display === "none") ? "block" : "none";
+    flecha.style.transform = (desplegable.classList.contains("desplegado")) ? "rotate(0deg)" : "rotate(270deg)";
+}
+    
